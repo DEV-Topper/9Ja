@@ -40,7 +40,7 @@ const MobileSideBar: FC<{
 					<Link
 						className="px-4 capitalize"
 						onClick={onToggle}
-						href={el.link!}
+						href="#"
 						key={i}
 					>
 						{el.name}
